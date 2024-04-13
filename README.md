@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import atand from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atand@esm/index.mjs';
+import atand from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atand@v0.1.0-esm/index.mjs';
 ```
 
 #### atand( x )
@@ -87,7 +87,7 @@ v = atand( NaN );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import atand from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atand@esm/index.mjs';
+import atand from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atand@v0.1.0-esm/index.mjs';
 
 var x = linspace( -1.0, 1.0, 100 );
 
