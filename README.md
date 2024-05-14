@@ -190,6 +190,14 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-base/special/atan`][@stdlib/math/base/special/atan]</span><span class="delimiter">: </span><span class="description">compute the arctangent of a double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/atanh`][@stdlib/math/base/special/atanh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arctangent of a double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/acosd`][@stdlib/math/base/special/acosd]</span><span class="delimiter">: </span><span class="description">compute the arccosine (in degrees) of a double-precision floating-point number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -233,8 +241,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-atand.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-atand
 
-[test-image]: https://github.com/stdlib-js/math-base-special-atand/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/math-base-special-atand/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/math-base-special-atand/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-base-special-atand/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-atand/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-atand?branch=main
@@ -269,6 +277,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [arctangent]: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
 
 <!-- <related-links> -->
+
+[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan
+
+[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh
+
+[@stdlib/math/base/special/acosd]: https://github.com/stdlib-js/math-base-special-acosd
 
 <!-- </related-links> -->
 
