@@ -35,38 +35,32 @@ limitations under the License.
 
 > Compute the [arctangent][arctangent] in degrees of a double-precision floating-point number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-atand
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-atand = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atand@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var atand = require( 'path/to/vendor/umd/math-base-special-atand/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atand@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.atand;
-})();
-</script>
+var atand = require( '@stdlib/math-base-special-atand' );
 ```
 
 #### atand( x )
@@ -104,14 +98,9 @@ v = atand( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atand@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var atand = require( '@stdlib/math-base-special-atand' );
 
 var x = linspace( -1.0, 1.0, 100 );
 
@@ -119,11 +108,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( atand( x[ i ] ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -184,7 +168,7 @@ double stdlib_base_atand( const double x );
 
 int main( void ) {
     const double x[] = { 1.0, 1.45, 1.89, 2.33, 2.78, 3.22, 3.66, 4.11, 4.55, 5.0 };
-    
+
     double v;
     int i;
     for ( i = 0; i < 10; i++ ) {
@@ -294,11 +278,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan/tree/umd
+[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan
 
-[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh/tree/umd
+[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh
 
-[@stdlib/math/base/special/acosd]: https://github.com/stdlib-js/math-base-special-acosd/tree/umd
+[@stdlib/math/base/special/acosd]: https://github.com/stdlib-js/math-base-special-acosd
 
 <!-- </related-links> -->
 
