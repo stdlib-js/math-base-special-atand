@@ -114,6 +114,22 @@ logEachMap( 'atand(%0.4f) = %0.4f', x, atand );
 
 <!-- /.examples -->
 
+<!-- C interface documentation. -->
+
+* * *
+
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
 <!-- C usage documentation. -->
 
 <section class="usage">
@@ -241,8 +257,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-atand.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-atand
 
-[test-image]: https://github.com/stdlib-js/math-base-special-atand/actions/workflows/test.yml/badge.svg?branch=v0.1.2
-[test-url]: https://github.com/stdlib-js/math-base-special-atand/actions/workflows/test.yml?query=branch:v0.1.2
+[test-image]: https://github.com/stdlib-js/math-base-special-atand/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-base-special-atand/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-atand/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-atand?branch=main
